@@ -13,14 +13,55 @@
     <script src="scripts/jquery-1.9.1.js"></script>
     <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
 </head>
+
 <body>
-    HELLO NICOLLE!
+
+
+        <div class="colonne">
+             <img class="slide-2" src="img/texte-haut.jpg" alt="" />
+             <img class="slide-3" src="img/texte-haut.jpg" alt="" />
+        </div>
+
+
+        <div class="colonne">
+             <img class="slide-1" src="img/image-complete.jpg" alt="" />
+             <img class="slide-2" src="img/main.jpg" alt="" />
+             <div class="slide-3">
+                <p>John Heartfield</p>
+                <p>Image d’une  main centrée qui prends toute la place. Elle représente une main sale d’ouvrier sur un fond blanc qui devient monumentale. Elle inspire le peuple en lui disant qu’ils ont le pouvoir dans ses mains et les gens se sentent identifies avec cette image parce qu’il s’agit de la main d’un ouvrier donc de quelqu’un comme eux.</p>
+                <p>On met en avant le chiffre 5 tant avec l’image de la main que avec le chiffre écris en rouge et avec une taille plus grande. 5 represente les 5 doigts de la main, mais aussi le numero du partie communiste dans les élections pour le quelle les antinazis devaient voter.</p>
+                <p>On dirais que la typographie est de style gothique un style cree au moyen âge. Cette typographie fait un grand contraste ce qui met le texte en avant et le fait ressortir pour que le publique le met en valeur et qu’il ne perd pas de l’importance devant l’image principale qui est la main. Cette typo est revenue à la mode grâce aux nazis. <span class="go-next">next slide</span>.</p>
+            </div>
+        </div>
+
+
+        <div class="colonne">
+             <img class="slide-2" src="img/texte-bas.jpg" alt="" />
+             <img class="slide-3" src="img/texte-bas.jpg" alt="" />
+        </div>
+
+        
+
+
     
     <!-- ICI METTEZ VOS SCRIPTS-->
     <script>
-        $( function() {
-          $( ".draggable" ).draggable();
-        } );
+        $( ".slide-2" ).hide();
+        $( ".slide-3" ).hide();
+        $( ".slide-1" ).click(function() {
+            $(".slide-2").show();
+            $( ".slide-1" ).hide();
+        });
+        $( ".slide-2" ).click(function() {
+            $(".slide-3").show();
+            $( ".slide-2" ).hide();
+        });
+
+        $( ".slide-3" ).click(function() {
+            $(".slide-1").show();
+            $( ".slide-3" ).hide();
+        });
+
     </script>
 
 </body>
