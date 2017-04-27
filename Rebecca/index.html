@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="ltr" class="sid-plesk" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>HTML BASE</title>
+    <!--<meta name="copyright" content="">-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
+</head>
+<body>
+    <div class="date-contenu">
+        <p class="date">1970</p>
+        <div class="hidden click-show">
+            <p>Texte qui explique cette image!</p>
+            <img src="images/test.png" />
+        </div>
+    </div>
+    <div class="date-contenu">
+        <p class="date">1980</p>
+        <div class="hidden click-show">
+            <img src="images/test.png" />
+        </div>
+    </div>
+    <div class="date-contenu">
+        <p class="date">1990</p>
+        <div class="hidden click-show">
+            <img src="images/test.png" />
+        </div>
+    </div>
+    <div class="date-contenu">
+        <p class="date">2000</p>
+        <div class="hidden click-show">
+            <img src="images/test.png" />
+        </div>
+    </div>
+    <div class="date-contenu">
+        <p class="date">2010</p>
+        <div class="hidden click-show">
+            <img src="images/test.png" />
+        </div>
+    </div>
+
+
+
+
+    <!-- ICI METTEZ VOS SCRIPTS-->
+    <script>
+        $('.hidden').hide();
+        $('.date-contenu').click(function() {
+            $('.hidden').hide();
+            $(this).find('.click-show').show();
+        });
+    </script>
+
+</body>
+</html>
