@@ -67,17 +67,20 @@ nav ul li#active
   background-repeat: no-repeat;
 }
 
-.gallery__thumbs {text-align: center;background:#ddd;}
+.gallery__thumbs {text-align: center;background: #ddd;}
 .gallery__thumbs a {
+  border-style: solid;
+  border-color: black;  
+  border-width: 1px;
   display: inline-block;
-  width:  %;
+  width: 13%;
   padding: 0.5em;
   opacity: 0.2;
   -webkit-transition: opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.gallery__thumbs a:hover {opacity: 0.75;}
+.gallery__thumbs a:hover {opacity: 0.85;}
 .gallery__thumbs a.is-active {opacity: 1;}
 
 
