@@ -23,8 +23,16 @@ div {
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'sporting_grotesquenormal';
+    src: url('fonts/sporting_grotesque_normal.woff2') format('woff2'),
+         url('fonts/sporting_grotesque_normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: monospace;
+    font-family: 'sporting_grotesquenormal';
     overflow-y: hidden;
     width: 6000000px;
 }
