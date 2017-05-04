@@ -15,36 +15,81 @@
 </head>
 <body>
     <div class="date-contenu">
-        <p class="date">1970</p>
-        <div class="hidden click-show">
-            <p>Texte qui explique cette image!</p>
-            <img src="images/test.png" />
+        <p class="date">1945</p>
+		<div class="hidden click-show">
+            <p>6 août: les USA larguent une bombe sur Hiroshima. 140 000 personnes décédées en quelques mois. 
+			   </p>
+			<p>9 août: les USA larguent une bombe sur Nagasaki. 74 000 personnes décédées des suites de la bombe et des radiations
+            </p>			   
+            <img src="images/hiroshima.jpg" />
         </div>
     </div>
     <div class="date-contenu">
-        <p class="date">1980</p>
+        <p class="date">1946</p>
         <div class="hidden click-show">
-            <img src="images/test.png" />
+		   <p> 24 janvier: l’ONU demande l’élimination des armes nucléaires. 
+        </p>
         </div>
     </div>
     <div class="date-contenu">
-        <p class="date">1990</p>
+        <p class="date">1949-1954</p>
+		<div class="hidden click-show">
+        <p> Les USA, l’Union Soviétique et les Royaumes Unis testent différentes armes nucléaires.<br>
+		    L’Union Soviétique devient la deuxième nation à développer et tester la bombe atomique avec succès. 
+		</p>
+		</div>
+	</div>
+    <div class="date-contenu">
+        <p class="date">1955</p>
         <div class="hidden click-show">
-            <img src="images/test.png" />
+		<p> 9 juillet: Bertrand Russell, Albert Einstein ainsi que d’autres scientifiques publient un manifeste sur les dangers d’une guerre nucléaire et appelant à régler les conflits pacifiquement. 
+		</p>
         </div>
     </div>
     <div class="date-contenu">
-        <p class="date">2000</p>
+        <p class="date">1957</p>
         <div class="hidden click-show">
-            <img src="images/test.png" />
-        </div>
-    </div>
+        <p> Réunion du petit groupe de militants Direct Action Committee lors des protestations contre les essais de bombes nucléaires britannique sur Christmas Island. Le groupe est influencé par les méthodes de résistances non-violentes de Gandhi. 
+        </p>
+		</div>
+	</div>
     <div class="date-contenu">
-        <p class="date">2010</p>
+        <p class="date">1958</p>
         <div class="hidden click-show">
-            <img src="images/test.png" />
-        </div>
+		<p> Le premier projet du Direction Action Committee est d’organisé une marche de Londres à l’établissement de recherche sur les armes nucléaires à Aldermaston en 1958. Gerald Holtom est alors un artiste basé à Twickenham et responsable de l’image de la marche.  Il décide de créer un symbole qui signifie en même temps, le désarmement nucléaire et la nécessité pour chaque individu d’agir. 
+        </p>
+		</div>
+	</div>	
+	<div class="peace-signcontenu">
+        <p class="holtom">PEACE SIGN</p>
+        <div class="hidden click-show">
+		 <p> Au début Gérald Holtom avait pensé se baser sur la croix chrétienne pour créer l’emblème de la campagne de désarmement nucléaire. <br>
+		     Par la suite, il a préféré utiliser
+		    <div class="unprincipedesemaphore">
+				<p class="semaphore">un principe de sémaphore</p> 	
+				<div class="hidden click-show2">
+				Mis au point par les frères Chappe en France, le sémaphore est un moyen de communication optique basé sur un code alphanumérique reproduit par une structure et permettant de communiquer à distance. 
+				</div>
+			</div>
+			
+			<div class= "communicationmanifestants">
+				<p class="manifestants">Dans un soucis de communication</p>
+				<p> Il utilise donc </p>
+				<div class= "emblemeexplication">
+					<p class="embleme">le N(uclear) et le D(isarmament)</p>
+					<p>et place le tout dans un cercle symbolisant la Terre.  Bien plus tard, Holtom explique que le design de l’emblème le représente lui-même, un humain désespéré avec les bras tendus vers le bas. <br>
+               Holtom soumet son design en 1957, les organisateurs manquent de conviction par rapport au propos défendu par Holtom dans le symbole, le désarmement nucléaire est bien présent mais pas la nécessité d’action. Il est officiellement adopté par la Campagne de Désarmement Nucléaire en 1958. 
+              </p>
+					<img src="images/21fevrier1958_Gerald-Holtom.jpg" />
+				</div>
+			</div>
+		
+		    
     </div>
+	
+			  
+	
+			
 
 
 
@@ -56,6 +101,14 @@
             $('.hidden').hide();
             $(this).find('.click-show').show();
         });
+		$('.peace-signcontenu').click(function() {
+            $('.hidden').hide();
+            $(this).find('.click-show').show();
+        });
+		$('.unprincipedesemaphore').click(function() {
+            $(this).find('.click-show2').show();
+        });
+		
     </script>
 
 </body>

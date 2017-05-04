@@ -23,18 +23,10 @@ div {
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'sporting_grotesquenormal';
-    src: url('fonts/sporting_grotesque_normal.woff2') format('woff2'),
-         url('fonts/sporting_grotesque_normal.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
-    font-family: 'sporting_grotesquenormal';
+    font-family: monospace;
     overflow-y: hidden;
-    width: 6000000px;
+    width: 60000000px;
 }
 a, a:hover, a:focus, a:visited, a:active {
     color: black;
@@ -46,17 +38,80 @@ img {
     width: 300px;
 }
 .date-contenu {
-    margin-top: 40vh;
+    margin-top: 5vh;
     text-align: center;
     padding: 20px;
     width: 600px;
-    border: 2px solid black;
     font-size: 100px;
     float: left;
+	position: relative;
 }
 .date-contenu:hover .date {
+    color: red;
+}
+.click-show  {
+	margin-top: 30px;
+		
+}
+.click-show p {
+    font-size: 20px;
+	text-align: left;
+	
+	
+	
+}
+.click-show-up {
+    position: absolute;
+	top:-300px;
+}
+	
+.peace-signcontenu {
+	margin-top: 5vh;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    background-color: red;
+    font-size: 100px;
+    float: left;
+	position: relative;
+		
+}
+.peace-signcontenu .click-show {
+	height: 100vh;
+	position: absolute;
+	top:16vh;
+	background-color: white;
+	left:0;
+	text-align: left;
+	margin-top: 40px;
+}
+.peace-signcontenu .holtom {
+	color: white;
+}
+.click-show p {
+    font-size: 20px;
+}
+.unprincipedesemaphore:hover .semaphore {
     color: red;
 }
 .click-show p {
     font-size: 20px;
 }
+.communicationmanifestants:hover .manifestants {
+    color: red;
+}
+.click-show p {
+    font-size: 20px;
+}
+.emblemeexplication:hover .embleme {
+    color: red;
+}
+.click-show p {
+    font-size: 20px;
+}
+
+
+
+
+	
+
