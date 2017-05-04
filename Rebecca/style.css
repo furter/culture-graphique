@@ -109,8 +109,17 @@ img {
 .click-show p {
     font-size: 20px;
 }
-
-
+.montre-image {
+    position: relative;
+}
+.montre-image:hover {
+    color: red;
+}
+.image-apparait {
+    position: absolute;
+	top: 0px;
+	left: -100px;
+}
 
 
 	
