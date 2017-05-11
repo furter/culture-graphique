@@ -11,21 +11,83 @@ div {
     page-break-inside:avoid;
 }
 
-/* Regular */
 @font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular.woff2') format('woff2'),
+         url('fonts/montserrat-regular.woff') format('woff');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+
 }
 
 body {
-    font-family: "League Gothic";
+    font-family: 'montserratregular';
 }
 a, a:hover, a:focus, a:visited, a:active {
     color: black;
+}
+
+div {
+
+}
+.colonne {
+  float: left;
+  width: 33.3%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-top: 80px;
+}
+.colonne .titre-colonne {
+    font-size: 20px;
+  display: none;
+  position: fixed;
+  top: 10px;
+  text-align: center;
+  width: 33%;
+}
+.colonne:hover .titre-colonne {
+  display: initial;
+}
+.lightgrey {
+  background-color: #F2F2F2;
+}
+.colonne img {
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 20px;
+  border-top: 2px solid black;
+  padding-top: 20px;
+}
+.colonne .premiere-image-colonne {
+    border-top: 0;
+}
+.grayscale{
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.legend-click{
+  cursor:pointer;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom: 5px;
+}
+.legend-hidden{
+    width: 90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+button {
+    font-family: 'montserratregular';
+    width: 90%;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
 }
