@@ -46,7 +46,43 @@ p {
     float: left;
     height: 100vh;
 }
+.slide-1 {
+    padding: 20px;
+
+ }
+.slide-2 {
+    padding: 20px;
+}
 .slide-3 {
     padding: 20px;
 }
 
+.slide-3 h1 {
+    padding: 30px;
+    margin-left: 0 auto;
+    font-size: 15px;
+}
+
+.slide-3 p {
+    padding: 30px;
+    margin: -10px;
+    margin-left: 0 auto;
+    text-align: justify;
+}
+
+.slide-4 {
+    padding: 20px;
+}
+
+.slide-4 h1 {
+    padding: 30px;
+    margin-left: 0 auto;
+    font-size: 15px;
+}
+
+.slide-4 p {
+    padding: 30px;
+    margin: -10px;
+    margin-left: 0 auto;
+    text-align: justify;
+}
