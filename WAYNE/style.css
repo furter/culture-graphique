@@ -29,18 +29,38 @@ body {
 a, a:hover, a:focus, a:visited, a:active {
     color: black;
 }
-.standard {
-  color: red;
-}
 p {
-  font-size: 40px;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.zone-affiches {
+    position: absolute;
+    width: 1240px;
+    top: 50vh;
+    margin-top: -275px;
+    left: 50%;
+    margin-left: -620px;
 }
 .affiche-1 {
-  position: relative;
+    float: left;
+    position: relative;
+    width: 429px;
+    height: 550px;
+    background-color: #e9dab1;
+}
+.affiche-vide {
+    float: left;
+    width: 429px;
+    height: 550px;
+    border: solid 3px black;
 }
 .affiche-2 {
-  position: relative;
-  margin-left: 500px;
+    float: left;
+    position: relative;
+    width: 380px;
+    height: 551px;
+    background-color: #d7a802;
 }
 .affiche-1 img, .affiche-2 img {
   position: absolute;
