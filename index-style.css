@@ -40,6 +40,7 @@ img {
     position: fixed;
     width: 100%;
     top: 0px;
+    z-index: 3;
 }
 .row {
     clear: both;
@@ -69,4 +70,9 @@ figcaption {
 }
 .annee {
     margin: 10px;
+}
+.typo {
+    background-color: white;
+    position: relative;
+    z-index: 2;
 }
