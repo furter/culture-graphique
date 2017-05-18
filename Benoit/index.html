@@ -2,7 +2,7 @@
 <html dir="ltr" class="sid-plesk" lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>HTML BASE</title>
+    <title>Style milanais - culture graphique</title>
     <!--<meta name="copyright" content="">-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,15 +13,100 @@
     <script src="scripts/jquery-1.9.1.js"></script>
     <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
 </head>
+
+
 <body>
-    BENOIT
+
+  <div class="barre-presentation">
+    <p style="text-align: right">i</p>
+
+  </div>
+
+
+
+    <div class="colonne">
+        <p class="titre-colonne">colonne 1</p>
+          <div class="image-click">
+            <img src= "6.Betoniere Magutt, 1956 - Studio Boggeri - Loro e Parisini, Milano, Italie.jpg" class="largeur_img">
+            <p class="legend-hidden">Betoniere Magutt, 1956</p>
+          </div>
+          <div class="image-click">
+            <img src= "2.Olivetti M40, 1934 - Xanti Schawinsky, Studio Boggeri - Olivetti, Italie01.jpg" class="largeur_img">
+            <p class="legend-hidden">Olivetti M40, 1934</p>
+          </div>
+          <div class="image-click">
+            <img src= "3.Olivetti M40, 1934 - Xanti Schawinsky, Studio Boggeri - Olivetti, Italie02.jpg" class="largeur_img">
+            <p class="legend-hidden">Olivetti M40, 1934</p>
+          </div>
+          <div class="image-click">
+            <img src= "4.Olivetti M40, 1934 - Xanti Schawinsky, Studio Boggeri - Olivetti, Italie03.jpg" class="largeur_img">
+            <p class="legend-hidden">Olivetti M40, 1934</p>
+          </div>
+    </div>
+
+
+
+
+
+
+    <div class="colonne">
+        <p class="titre-colonne">colonne 2</p>
+        <div class="image-click">
+          <img src= "7.Piu Veloci Della Strada, 1958 - Aldo Calabresi, Studio Boggeri - Pirelli, Italie01.jpg" class="largeur_img">
+          <p class="legend-hidden">Piu Veloci Della Strada, 1958</p>
+        </div>
+        <div class="image-click">
+          <img src= "8.Piu Veloci Della Strada, 1958 - Aldo Calabresi, Studio Boggeri - Pirelli, Italie02.jpg" class="largeur_img">
+          <p class="legend-hidden">Piu Veloci Della Strada, 1958</p>
+        </div>
+        <div class="image-click">
+          <img src= "11.Affiche Showroom 3 pneus poids lourds, 1961 - Antonio Calabresi, Studio Boggeri.jpg" class="largeur_img">
+          <p class="legend-hidden">Affiche Showroom 3 pneus poids lourds, 1961</p>
+          </div>
+        <div class="image-click">
+          <img src= "9.Pirelli Terminali Per Cavi, 1959 - Antonio Boggeri, Studio Boggeri.jpg" class="largeur_img">
+          <p class="legend-hidden">Pirelli Terminali Per Cavi, 1959</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="colonne">
+      <p class="titre-colonne">colonne 3</p>
+      <div class="image-click">
+        <img src= "10.Afolin, 1960 - Aldo Calabresi, Studio Boggeri - Società del Linoleum, Italie.jpg" class="largeur_img">
+        <p class="legend-hidden">Afolin, 1960</p>
+      </div>
+      <div class="image-click">
+        <img src= "12.Lo studio Boggeri 1933-1981, 1981 - Bruno Monguzzi - Carlo Pirovano, Organisée par Bruno Monguzzi.jpg" class="largeur_img">
+        <p class="legend-hidden">Lo studio Boggeri 1933-1981</p>
+      </div>
+      <div class="image-click">
+        <img src= "5.Kardex Italiano, 1940 - Remo Muratore, Studio Boggeri - Kardex Italiano, Italie.jpg" class="largeur_img">
+        <p class="legend-hidden">Kardex Italiano, 1940</p>
+      </div>
+      <div class="image-click">
+        <img src= "1.El Huevo de Colón, 1933-Antonio Boggeri.jpg" class="largeur_img">
+        <p class="legend-hidden">El Huevo de Colón, 1933</p>
+      </div>
+
+    </div>
+
+
 
     <!-- ICI METTEZ VOS SCRIPTS-->
     <script>
-        $( function() {
-          $( ".draggable" ).draggable();
-        } );
+        $( ".image-click" ).click(function() {
+            $(this).addClass("imagegrand");
+            $(this).click(function() {
+              $(this).removeClass("imagegrand");
+            });
+        });
+
     </script>
+
 
 </body>
 </html>
