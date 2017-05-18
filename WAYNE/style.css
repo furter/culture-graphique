@@ -29,3 +29,19 @@ body {
 a, a:hover, a:focus, a:visited, a:active {
     color: black;
 }
+.standard {
+  color: red;
+}
+p {
+  font-size: 40px;
+}
+.affiche-1 {
+  position: relative;
+}
+.affiche-2 {
+  position: relative;
+  margin-left: 500px;
+}
+.affiche-1 img, .affiche-2 img {
+  position: absolute;
+}
