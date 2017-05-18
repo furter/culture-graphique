@@ -50,11 +50,26 @@ img {
     width: 33%;
     min-height: 50px;
     float: left;
+}
+.graphisme {
+    padding: 20px 0 20px 40px;
+}
+.typo {
+    background-color: white;
+    position: relative;
+    z-index: 2;
     padding: 20px;
 }
-.titres-colonnes .colonne {
-    padding: 5px;
+.art {
+    padding: 20px 40px 20px 0;
 }
+.titres-colonnes .colonne {
+    padding-top: 5px;
+}
+.annee {
+    margin: 10px;
+}
+
 figure {
     color: transparent;
 }
@@ -67,12 +82,4 @@ figcaption {
     width: 60%;
     margin: auto;
     margin-top: 5px;
-}
-.annee {
-    margin: 10px;
-}
-.typo {
-    background-color: white;
-    position: relative;
-    z-index: 2;
 }
