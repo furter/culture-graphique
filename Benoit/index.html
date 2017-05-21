@@ -18,15 +18,13 @@
 <body>
     <div class="retour-page-accueil retour-page-accueil-background-white"><a href="../index.html">RETOUR CHRONOLOGIE GRAPHISME</a></div>
 
-  <div class="barre-presentation">
-    <p style="text-align: right">i</p>
-
-  </div>
-
-
+    <div class="barre-presentation">
+        <div class="barre-presentation-info">info</div>
+        <p>Informations sur la période …</p>
+    </div>
 
     <div class="colonne">
-        <p class="titre-colonne">colonne 1</p>
+        <!--<p class="titre-colonne">colonne 1</p>-->
           <div class="image-click">
             <img src= "6.Betoniere Magutt, 1956 - Studio Boggeri - Loro e Parisini, Milano, Italie.jpg" class="largeur_img">
             <p class="legend-hidden">Betoniere Magutt, 1956</p>
@@ -51,7 +49,7 @@
 
 
     <div class="colonne">
-        <p class="titre-colonne">colonne 2</p>
+        <!--<p class="titre-colonne">colonne 2</p>-->
         <div class="image-click">
           <img src= "7.Piu Veloci Della Strada, 1958 - Aldo Calabresi, Studio Boggeri - Pirelli, Italie01.jpg" class="largeur_img">
           <p class="legend-hidden">Piu Veloci Della Strada, 1958</p>
@@ -75,7 +73,7 @@
 
 
     <div class="colonne">
-      <p class="titre-colonne">colonne 3</p>
+      <!--<p class="titre-colonne">colonne 3</p>-->
       <div class="image-click">
         <img src= "10.Afolin, 1960 - Aldo Calabresi, Studio Boggeri - Società del Linoleum, Italie.jpg" class="largeur_img">
         <p class="legend-hidden">Afolin, 1960</p>
@@ -100,10 +98,7 @@
     <!-- ICI METTEZ VOS SCRIPTS-->
     <script>
         $( ".image-click" ).click(function() {
-            $(this).addClass("imagegrand");
-            $(this).click(function() {
-              $(this).removeClass("imagegrand");
-            });
+            $(this).toggleClass("imagegrand");
         });
 
     </script>
