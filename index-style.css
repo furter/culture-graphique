@@ -22,22 +22,6 @@ div {
     font-weight: normal;
     font-style: italic;
 }
-@font-face {
-    font-family: 'montserratbold';
-    src: url('index-fonts/montserrat-bold.woff2') format('woff2'),
-         url('index-fonts/montserrat-bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'montserratsemibold';
-    src: url('index-fonts/montserrat-semibold.woff2') format('woff2'),
-         url('index-fonts/montserrat-semibold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body {
     font-family: "League Gothic";
