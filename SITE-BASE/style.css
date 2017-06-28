@@ -29,3 +29,22 @@ body {
 a, a:hover, a:focus, a:visited, a:active {
     color: black;
 }
+ul {
+    list-style: none;
+}
+.hidden {
+    display: none;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu ul {
+    float: left;
+    padding: 5px;
+}
+.menu ul ul {
+	display: none;
+    padding: 0;
+}

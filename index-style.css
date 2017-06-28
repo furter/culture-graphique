@@ -22,6 +22,13 @@ div {
     font-weight: normal;
     font-style: italic;
 }
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('index-fonts/montserrat-bold.woff2') format('woff2'),
+         url('index-fonts/montserrat-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: "League Gothic";
@@ -31,7 +38,10 @@ body {
 a, a:hover, a:focus, a:visited, a:active {
     color: black;
 }
-img {
+a.no-underline, a.no-underline:hover, a.no-underline:focus, a.no-underline:visited, a.no-underline:active {
+    text-decoration: none;
+}
+.row img {
     max-width: 100%;
     max-height: 300px;
 }
@@ -82,4 +92,9 @@ figcaption {
     width: 60%;
     margin: auto;
     margin-top: 5px;
+}
+
+.text-classif {
+    max-width: 600px;
+    color: red;
 }
