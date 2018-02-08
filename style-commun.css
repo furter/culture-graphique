@@ -22,7 +22,6 @@ div {
     font-weight: normal;
     font-style: italic;
 }
-
 .retour-page-accueil {
     z-index: 99999;
     position: fixed;
@@ -38,4 +37,8 @@ div {
 }
 .retour-page-accueil-background-white {
     background-color: white;
+}
+.typo-menu {
+    color: red;
+    margin-top: 30px;
 }
