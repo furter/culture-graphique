@@ -1,0 +1,129 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'League Gothic';
+    font-size: 40px;
+    text-align: left;
+    padding: 20px;
+}
+
+.titre {
+    position: fixed;
+    font-size: 70px;
+    color: blue;
+}
+.titre-collectif {
+    margin-top: 100px;
+
+}
+.collectif {
+    margin-top: 100px;
+    border: 1px ;
+}
+.contenu-texte {
+    font-size: 20px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenu-texte.liste p {
+  margin-top: 20px;
+}
+.contenu-texte.citations p {
+  margin-top: 10px;
+}
+.texte-gauche {
+    display: inline-block;
+    vertical-align: top;
+}
+.contenu-droite {
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+    margin-right: auto;
+}
+.contenu-droite img {
+    height: 200px;
+}
+.contenu-droite figure {
+    display: inline-block;
+    width: 166px;
+    vertical-align: top;
+}
+.contenu-droite figure img {
+    height: 200px;
+}
+.contenu-droite figcaption {
+    font-size: 20px;
+}
+.image-grande {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+.texte-petit {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+.image-moyenne {
+    width: 50%;
+}
+.image-petite {
+    width: 20%;
+}
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MINIMUM) */
+@media screen and (min-width: 480px) {
+
+}
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}
+
+/* IMPRESSION */
+
+@media print {
+    .titre {
+        color: blue;
+    }
+    .screen-only {
+        display: none;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}
